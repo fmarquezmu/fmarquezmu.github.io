@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Caveat:wght@400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    font-family: 'Barlow';
+    position: relative;
+}
+#nav-burger {
+    background-color: #eb3c46;
+    border-color: #ffffff;
+
+}
+h1 {
+    font-family: 'Caveat';
+    color: #eb3c46;
+}
+#titulo-contact {
+    color: #fff;
+}
+.form-label {
+    color: #fff;
+}
+.nav-link {
+    color: #eb3c46;
+    font-weight: 700;
+    font-size: large;
+}
+.nav-link:hover {
+    color: #0f69b4;
+}
+#boton-enviar {
+    color: #ffffff;
+    background-color: #eb3c46;
+    border-color:#eb3c46;
+    font-weight: 700;
+}
+#boton-enviar:hover {
+    color:#eb3c46;
+    background-color: #fff;
+    border-color:#eb3c46;
+    font-weight: 700;
+}
+
+#marca-footer {
+    font-family: 'Caveat';
+    color: #fff;
+}
+.card-title {
+    color: #0f69b4;
+    font-weight: 700;
+}
+.titulos-icons {
+    color: #0f69b4;
+}
+.form-label {
+    font-weight: 700;
+}
+.navbar-collapse.expanding{
+    background-color: #fff;
+}
+#AboutUs {
+    scroll-margin-top: 70px;
+}
+.boton1 {
+    font-weight: 700;
+    color: #FFFFFF;
+    border-color: #DDDDDD;
+    background-color: none;
+}
+.boton1:hover {
+    background-color: #FFFFFF;
+    color: #0f69b4;
+}
+.tooltip-inner {
+    color: #fff;
+    background-color: #eb3c46;
+}
+

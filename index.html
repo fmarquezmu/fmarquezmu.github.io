@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/a531ba375e.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Felipe Andrés Márquez Muñoz">
+    <meta name="description" content="Viajes Chile">
+    <meta name="keywords" content="viajes, pasajes, paisajes, naturaleza, chile, paquetes, turismo, hoteles">
+    <link rel="shortcut icon" type="image/png" href="" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Viajes Chile</title>
+</head>
+<body>
+
+
+    <header>
+        <div id="carouselExampleIndicators" class="carousel slide" style="margin-top: 70px;">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/img/header-slide1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/header-slide2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/header-slide3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <nav id="navbar-background" class="navbar fixed-top navbar-expand-lg justify-content" style="background-color: #fff; height: 70px;">
+            <div class="container" style="opacity: 0.9;">
+                <a class="navbar-brand" href="#"><h1><i class="fa-solid fa-suitcase fa-lg" style="color: #eb3c46;"></i>Viajes Chile</h1></a>
+                <button id="nav-burger" class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent" style="background-color: #fff;">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-none d-md-block" href="#AboutUs">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#destacados">Destacados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contacto</a>
+                    </li>
+                    </ul>
+                </div>
+            </div> 
+        </nav>
+    </header>
+
+    
+    <section id="AboutUs" class="container py-5 text-center d-none d-md-block" style="scroll-margin-top: 70px;">
+        <h2 class="text-center" id="titulo-aboutUs" style="color: #0f69b4; font-weight: 700;">¿QUÉ OFRECEMOS?</h2>
+        <div class="row py-5 px-5">
+            <div class="col-12 col-md-4 py-5">
+
+                <div id="icon-1"><!-- Wrap for hover fade in-->
+                    <i class="fa-solid fa-plane fa-3x my-3 iconos" style="color:#0f69b4;"></i>
+                    <h3 class="my-3 fw-bold titulos-icons">Vuelos</h3>
+                </div>
+                <p class="my-3" id="texto-icono-1" style="display: none;">En Viajes Chile encontrarás tu pasaje de avión a todos los destinos nacionales y aerolíneas que operan cada una ellas. Podrás elegir la ruta, la aerolínea y los horarios que mejor se acomoden a tus necesidades y hacer de tus próximas vacaciones un sueño.</p>
+            </div>
+            <div class="col-12 col-md-4 py-5">
+
+                <div id="icon-2"><!-- Wrap for hover fade in-->
+                    <i class="fa-solid fa-bed fa-3x my-3" style="color: #0f69b4;"></i>
+                    <h3 class="my-3 fw-bold titulos-icons">Hoteles</h3>
+                </div>
+                <p class="my-3" id="texto-icono-2" style="display: none;">Sabemos lo importante que es tener un buen descanso en tus vacaciones, tenemos las mejores recomendaciones y promociones en alojamientos, all inclusive y hoteles. Consigue hospedajes y alojamientos con piscina, desayuno incluido, wifi, gimnasios, estacionamiento, spa, all inclusive y mucho más!</p>
+            </div>
+            <div class="col-12 col-md-4 py-5">
+
+                <div id="icon-3"><!-- Wrap for hover fade in-->
+                    <i class="fa-solid fa-suitcase-rolling fa-3x my-3" style="color:#0f69b4;"></i>
+                    <h3 class="my-3 fw-bold titulos-icons">Paquetes</h3>
+                </div>
+                <p class="my-3" id="texto-icono-3" style="display: none;">Te ofrecemos paquetes de viajes soñados. Conoce nuestras recomendaciones y reserva tus vacaciones con nuestras promociones y ofertas en paquetes turísticos. En Viajes Chile puedes conseguir viajes accesibles y cómodos para viajar sólo, en familia, con amigos o tener una escapada romántica.</p>
+            </div>
+        </div>    
+    </section>
+    
+
+    <section id="destacados" class="container text-center py-5" style="scroll-margin-top: 70px;">
+        <h2 class="text-center pb-5" id="titulo-trabajos" style="color: #0f69b4; font-weight: 700;">DESTINOS DESTACADOS</h2>
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-3 mt-3">
+                <div class="card">
+                    <div id="carouselCard1" class="carousel slide" data-interval="true 1000" data-bs-ride="carousel" data-bs-pause="false" data-bs-interval="3000">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/img/card-norte1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/card-norte2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/card-norte3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">ZONA NORTE</h5>
+                        <p class="card-text">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci.</p>
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 mt-3">
+                <div class="card">
+                    <div id="carouselCard2" class="carousel slide" data-interval="true 1000" data-bs-ride="carousel" data-bs-pause="false" data-bs-interval="3000">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/img/card-centro1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/card-centro2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/card-centro3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">ZONA CENTRAL</h5>
+                        <p class="card-text">Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus lacinia sed faucibus mauris, taciti scelerisque nulla ornare consequat.</p>
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 mt-3">
+                <div class="card">
+                    <div id="carouselCard3" class="carousel slide" data-interval="true 1000" data-bs-ride="carousel" data-bs-pause="false" data-bs-interval="3000">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/img/card-sur1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/card-sur2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/card-sur3.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">ZONA SUR</h5>
+                        <p class="card-text">Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet ac eleifend risus, urna auctor inceptos mattis dapibus.</p>
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 mt-3">
+                <div class="card">
+                    <div id="carouselCard4" class="carousel slide" data-interval="true 1000" data-bs-ride="carousel" data-bs-pause="false" data-bs-interval="3000">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/img/card-austral1.JPG" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/card-austral2.jpg"" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/card-austral3.jpg"" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">ZONA AUSTRAL</h5>
+                        <p class="card-text">Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet ac eleifend risus, urna auctor inceptos mattis dapibus.</p>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>   
+    </section>
+
+
+    <section id="contact" style="background-color:#0f69b4; scroll-margin-top: 70px;">
+        <h2 class="text-center pt-5" id="titulo-contact" style="font-weight: 700;">CONTÁCTANOS</h2>
+        <div class="container pb-5" id="contact-form">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput2" class="form-label">Correo electrónico</label>
+                <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="Correo eléctronico">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Correo electrónico</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" placeholder="Mensaje"></textarea>
+            </div>
+            <div class="d-grid gap-2 col-lg-2 col-sm-8 col-md-4 mx-auto mt-5" >
+                <button class="btn btn-lg boton1 w-100" type="button" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Presiona para enviar mensaje">Enviar</button>
+            </div>
+        </div> 
+    </section>
+
+
+    <footer style="background-color: #eb3c46;">
+        <div class="container pt-3";>
+            <div class="row justify-content-center">
+                <div class="col-6">
+                    <h2 id="marca-footer"><i class="fa-solid fa-suitcase fa-md" style="color: #fff;"></i>Viajes Chile</h2>
+                </div>
+                <div class="col-1">
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram fa-2x" style="color: #fff;"></i></a>
+                </div>
+                <div class="col-1">
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-square-facebook fa-2x" style="color: #fff;"></i></a>
+                </div>
+                <div class="col-1">
+                    <a href="https://www.x.com/"><i class="fa-brands fa-square-x-twitter fa-2x" style="color: #fff;"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script type="text-javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/button-click.js"></script>
+    <script src="assets/js/hover-icon.js"></script>
+    <script src="assets/js/tooltip-hover.js"></script>
+    <script src="assets/js/tooltip.js"></script>
+    <script src="assets/js/navbar-collapse.js"></script>
+
+</body>
+</html>
